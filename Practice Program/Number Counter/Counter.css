@@ -1,0 +1,32 @@
+h1{
+  font-size: 6vw;
+  text-align: center;
+  /* color: rgb(75, 75, 75); */
+  /* text-shadow: 2px 2px 4px red; */
+  text-decoration:underline;
+}
+.flexbox-container{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+.item1, .item2, .item3{
+  padding: 10px;
+}
+
+#countLabel{
+  display: block;
+  text-align: center;
+  font-size: 55px;
+}
+#decrementBtn{
+  text-align: center;
+
+}
+#resetBtn{
+  text-align: center;
+}
+#incrementBtn{
+  text-align: center;
+}
