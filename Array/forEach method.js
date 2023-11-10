@@ -27,6 +27,6 @@ function addExtraMarks(element, index, array) {
   array[index] = element + 10;
 }
 
-function printUpdatedMarks(element) {
-  console.log(element);
+function printUpdatedMarks(element, index) {
+  console.log(element, index);
 }

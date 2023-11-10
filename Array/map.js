@@ -1,4 +1,4 @@
-// array.map() = executes a provided callback function once for each array element AND creates a new array
+//? array.map() = executes a provided callback function once for each array element AND creates a new array
 
 let numbers = [2, 5, 8, 9, 10];
 // let squares = numbers.map(square);
@@ -19,11 +19,16 @@ let numbers = [2, 5, 8, 9, 10];
 // }
 
 // Using arrow function expressions
-let squares = numbers.map((element) => Math.pow(element, 2))
+let squares = numbers.map((element) => Math.pow(element, 2));
 
-let cubes = numbers.map((element) => Math.pow(element, 3))
+let cubes = numbers.map((element) => Math.pow(element, 3));
 
-console.log("Cubes")
-cubes.forEach((element) => console.log(element))
-console.log("Squares")
-squares.forEach((element) => console.log(element))
+// console.log("Cubes")
+// cubes.forEach((element) => console.log(element))
+// console.log("Squares")
+// squares.forEach((element) => console.log(element))
+
+let indexses = numbers.map((element, index) =>
+  console.log(element, index)
+);
+// numbers.forEach(indexses);
